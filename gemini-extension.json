@@ -1,0 +1,13 @@
+{
+  "name": "outset",
+  "version": "1.0.0",
+  "mcpServers": {
+    "outset": {
+      "description": "Create, edit, and launch Outset research studies and query interview results.",
+      "httpUrl": "https://api.outset.ai/mcp/",
+      "oauth": {
+        "enabled": true
+      }
+    }
+  }
+}

@@ -47,6 +47,12 @@ Enable **Developer Mode** under **Settings → Apps & Connectors → Advanced se
 code --add-mcp '{"name":"outset","type":"http","url":"https://api.outset.ai/mcp/"}'
 ```
 
+### Gemini CLI
+
+```bash
+gemini extensions install https://github.com/Outset-AI/outset-mcp
+```
+
 ### Anything else
 
 Any MCP client that supports remote servers (Streamable HTTP + OAuth) works. For stdio-only clients, bridge with [`mcp-remote`](https://github.com/geelen/mcp-remote):
@@ -78,4 +84,6 @@ Manifests for agent directories and marketplaces — the server itself is not he
 |---|---|
 | `.claude-plugin/plugin.json` + `.mcp.json` | Claude Code plugin wrapping the remote server |
 | `.claude-plugin/marketplace.json` | Makes this repo installable as a Claude Code plugin marketplace |
+| `.cursor-plugin/marketplace.json` | Same, for Cursor's plugin system |
+| `gemini-extension.json` | Gemini CLI extension (`gemini extensions install <repo url>`) |
 | `server.json` | Manifest for the [official MCP registry](https://registry.modelcontextprotocol.io) |
