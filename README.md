@@ -53,6 +53,21 @@ code --add-mcp '{"name":"outset","type":"http","url":"https://api.outset.ai/mcp/
 gemini extensions install https://github.com/Outset-AI/outset-mcp
 ```
 
+### Codex
+
+Add to `~/.codex/config.toml` (or `.codex/config.toml` in your project):
+
+```toml
+[mcp_servers.outset]
+url = "https://api.outset.ai/mcp/"
+```
+
+Then authenticate with:
+
+```bash
+codex mcp login outset
+```
+
 ### Anything else
 
 Any MCP client that supports remote servers (Streamable HTTP + OAuth) works. For stdio-only clients, bridge with [`mcp-remote`](https://github.com/geelen/mcp-remote):
