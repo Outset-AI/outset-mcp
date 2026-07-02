@@ -1,0 +1,17 @@
+{
+  "name": "outset-mcp",
+  "owner": {
+    "name": "Outset",
+    "url": "https://outset.ai"
+  },
+  "metadata": {
+    "description": "Official Outset plugin marketplace — connect AI agents to the Outset research platform via MCP."
+  },
+  "plugins": [
+    {
+      "name": "outset",
+      "source": "./",
+      "description": "Create, edit, and launch Outset research studies and query interview results — connects to Outset's remote MCP server (OAuth login with your Outset account)."
+    }
+  ]
+}

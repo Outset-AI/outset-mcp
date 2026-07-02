@@ -1,0 +1,13 @@
+{
+  "name": "outset",
+  "version": "1.0.0",
+  "description": "Create, edit, and launch Outset research studies and query interview results — connects to Outset's remote MCP server (OAuth login with your Outset account).",
+  "author": {
+    "name": "Outset",
+    "url": "https://outset.ai"
+  },
+  "homepage": "https://outset-ai.notion.site/outset-mcp-integration-guide-for-developers",
+  "repository": "https://github.com/Outset-AI/outset-mcp",
+  "license": "MIT",
+  "keywords": ["outset", "mcp", "user-research", "studies", "interviews", "surveys", "analytics"]
+}

@@ -1,0 +1,18 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.outset-ai/outset",
+  "title": "Outset",
+  "description": "AI-moderated research platform: create and launch studies and query interview results.",
+  "version": "1.0.0",
+  "websiteUrl": "https://outset.ai",
+  "repository": {
+    "url": "https://github.com/Outset-AI/outset-mcp",
+    "source": "github"
+  },
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://api.outset.ai/mcp/"
+    }
+  ]
+}

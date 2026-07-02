@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "outset": {
+      "type": "http",
+      "url": "https://api.outset.ai/mcp/"
+    }
+  }
+}
